@@ -1,6 +1,8 @@
 package com.devsuperior.dsmovie.dto;
 
+
 import com.devsuperior.dsmovie.entities.Movie;
+
 
 public class MovieDTO {
 	
@@ -67,7 +69,9 @@ public class MovieDTO {
 
 	public void setImage(String image) {
 		this.image = image;
-	};
+	}
+
+	
 	
 	
 }

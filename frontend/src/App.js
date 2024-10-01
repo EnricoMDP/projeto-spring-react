@@ -1,11 +1,12 @@
+import Navbar from "./components/Navbar/index.tsx";
+import Listing from "./pages/Listing/index.tsx";
+import Form from "./pages/Form/index.tsx";
+
 import {
   BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
-import Listing from './pages/Listing';
-import Form from './pages/Form';
-import Navbar from "components/Navbar";
 
 function App() {
   return (
